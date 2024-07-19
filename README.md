@@ -80,6 +80,10 @@ In order to run this project, you need the following:
 ![Checkout Page](assets/screenshots/checkout.png)
 ![Payment Page](assets/screenshots/payment.png)
 ![Purchase Success Page](assets/screenshots/success.png)
+![Order History Page Page](assets/screenshots/order_history.png)
+![Profile Page](assets/screenshots/profile.png)
+![Favorite/Wishlist Page](assets/screenshots/wishlist.png)
+![Order Summary Page](assets/screenshots/order_summary.png)
 
 ### APK Download Link
 [Download APK](https://drive.google.com/file/d/1cECqHpftzRH7AF7lIosgGbkHeDhUG9zc/view?usp=sharing)
