@@ -26,9 +26,9 @@
 - [❓ FAQ ](#faq)
 - [📝 License](#license)
 
-# 📖 Timbu Product Viewer <a name="about-project"></a>
+# 📖 Timbu Shop App<a name="about-project"></a>
 
- **Timbu Product Viewer** is an Ecommerce mobile app that integrates with the Timbu API to display product information.
+ **Timbu shop App** This is a comprehensive e-commerce mobile application built using Flutter and Dart. It uses Timbu API to display a wide range of products, allowing users to browse through various categories, view detailed product descriptions, add items to their shopping cart, and complete purchases through a streamlined checkout process.
 
 ## 🛠 Built With <a name="built-with"></a>
 
