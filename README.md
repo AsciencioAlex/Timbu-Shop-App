@@ -28,7 +28,7 @@
 
 # 📖 Timbu Product Viewer <a name="about-project"></a>
 
- **Timbu Product Viewer** is a mobile app that integrates with the Timbu API to display product information.
+ **Timbu Product Viewer** is an Ecommerce mobile app that integrates with the Timbu API to display product information.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,20 +66,26 @@ In order to run this project, you need the following:
 - Flutter SDK
 
 ### Setup Instructions
-1. Clone the repository: `git clone https://github.com/AsciencioAlex/TimbuProductViewer.git`
-2. Navigate to the project directory: `cd TimbuProductViewer`
+1. Clone the repository: `git clone https://github.com/AsciencioAlex/Timbu-Shop-App.git`
+2. Navigate to the project directory: `cd imbu-Shop-App`
 3. Run `flutter pub get` to install dependencies.
 4. Run the app on an emulator or physical device: `flutter run`
 
 ### Screenshots
-![Screenshot One](screenshots/screenshot_1.png)
-![Screenshot Two](screenshots/screenshot_2.png)
+![Home Page](assets/screenshots/home.png)
+![Cart One Page](assets/screenshots/cart_1.png)
+![Cart Two Page](assets/screenshots/cart_2.png)
+![Cart Three Page](assets/screenshots/cart_3.png)
+![Product List Page](assets/screenshots/product_list.png)
+![Checkout Page](assets/screenshots/checkout.png)
+![Payment Page](assets/screenshots/payment.png)
+![Purchase Success Page](assets/screenshots/success.png)
 
 ### APK Download Link
-[Download APK](https://drive.google.com/file/d/1k990OwzO2B3HMkR9C2uRiZtUX2VV_bHl/view?usp=drive_link)
+[Download APK](https://drive.google.com/file/d/1cECqHpftzRH7AF7lIosgGbkHeDhUG9zc/view?usp=sharing)
 
 ### Appetize.io Showcase
-[Appetize.io Demo](https://appetize.io/app/u37uj6zr2hu2ftu7ahszcjmg4a?device=pixel7&osVersion=13.0)
+[Appetize.io Demo](https://appetize.io/app/b_chliuk3je2tvv345qmc52nkqoe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +111,7 @@ In order to run this project, you need the following:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AsciencioAlex/Mobile-finish-portfolio/issues).
+Feel free to check the [issues page](https://github.com/AsciencioAlex/imbu-Shop-App/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
