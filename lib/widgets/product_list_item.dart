@@ -4,48 +4,35 @@ import '../models/product.dart';
 class ProductListItem extends StatelessWidget {
   final Product product;
 
-  ProductListItem({required this.product});
+  const ProductListItem({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {
+    const String imgUrl = 'http://api.timbu.cloud/images/';
+
     return Card(
-      margin: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
-      child: Padding(
-        padding: const EdgeInsets.all(10.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            if (product.photos.isNotEmpty)
-              Image.network(
-                product.photos.first,
-                height: 150,
-                width: double.infinity,
+      elevation: 4,
+      margin: const EdgeInsets.all(10),
+      child: ListTile(
+        leading: product.photos.isNotEmpty
+            ? Image.network(
+                '$imgUrl${product.photos[0]}',
                 fit: BoxFit.cover,
+                width: 50,
+                height: 50,
                 errorBuilder: (context, error, stackTrace) {
-                  return Text('Image not available');
+                  return const Icon(Icons.image_not_supported, size: 50);
                 },
-              ),
-            SizedBox(height: 10),
-            Text(
-              product.name,
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            Text('Price: \$${product.currentPrice.toStringAsFixed(2)}'),
-            Text('Available Quantity: ${product.availableQuantity}'),
-            Text('Status: ${product.status}'),
-            SizedBox(height: 10),
-            if (product.description.isNotEmpty)
-              Text(
-                product.description,
-                style: TextStyle(
-                  color: Colors.grey[700],
-                ),
-              ),
-          ],
-        ),
+              )
+            : const Icon(Icons.image_not_supported, size: 50),
+        title: Text(product.name),
+        subtitle: Text(product.description.isEmpty
+            ? 'No description'
+            : product.description),
+        trailing: Text('\$${product.currentPrice.toStringAsFixed(2)}'),
+        onTap: () {
+          // Handle tap if necessary
+        },
       ),
     );
   }

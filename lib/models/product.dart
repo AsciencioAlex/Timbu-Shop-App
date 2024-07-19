@@ -32,7 +32,7 @@ class Product {
           : (json['current_price'] ?? 0).toDouble(),
       status: json['status'] ?? 'available',
       photos: (json['photos'] as List<dynamic>)
-          .map((photo) => 'https://api.timbu.cloud/${photo['url'] as String}')
+          .map((photo) => photo['url'] as String)
           .toList(),
     );
   }
