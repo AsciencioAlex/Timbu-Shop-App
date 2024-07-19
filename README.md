@@ -86,10 +86,10 @@ In order to run this project, you need the following:
 ![Order Summary Page](assets/screenshots/order_summary.png)
 
 ### APK Download Link
-[Download APK](https://drive.google.com/file/d/1cECqHpftzRH7AF7lIosgGbkHeDhUG9zc/view?usp=sharing)
+[Download APK](https://drive.google.com/file/d/1eAV06q-NijHDvj1_QOvsJ8hEdezLTjef/view?usp=sharing)
 
 ### Appetize.io Showcase
-[Appetize.io Demo](https://appetize.io/app/b_chliuk3je2tvv345qmc52nkqoe)
+[Appetize.io Demo](https://appetize.io/app/b_bqt4idqhwf7rwhqerho4wipkey)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
